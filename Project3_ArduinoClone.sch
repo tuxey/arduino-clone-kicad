@@ -9,7 +9,7 @@ Date "2019-10-12"
 Rev "v1"
 Comp "Designed by Pablo Roig"
 Comment1 "Battery Powered"
-Comment2 "Extended EEPROM (1k)"
+Comment2 "Extended EEPROM (512 kB)"
 Comment3 "With RTC"
 Comment4 ""
 $EndDescr
