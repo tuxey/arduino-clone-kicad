@@ -1,0 +1,17 @@
+#cuando tenga que utilizar una línea de comandos encontrada en internet, no copiarla, sino escribirla caracter por caracter
+#de este modo se memoriza mucho mejor
+
+cd i:/OneDrive/'Proyectos KiCAD'/Udemy_course/Project3_ArduinoClone
+
+git add .
+
+git commit
+
+# editar el mensaje del commit con notepad++
+
+# otra opción:
+
+git commit -am "mensaje del commit"
+
+git push
+

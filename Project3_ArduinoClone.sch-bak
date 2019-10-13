@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Project3_ArduinoClone-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -9,8 +10,96 @@ Date "2019-10-12"
 Rev "v1"
 Comp "Designed by Pablo Roig"
 Comment1 "Battery Powered"
-Comment2 "Extended EEPROM (1k)"
+Comment2 "Extended EEPROM (512 kB)"
 Comment3 "With RTC"
 Comment4 ""
 $EndDescr
+$Comp
+L Device:Battery BT?
+U 1 1 5DA2ED42
+P 3600 3750
+F 0 "BT?" H 3708 3796 50  0000 L CNN
+F 1 "Battery" H 3708 3705 50  0000 L CNN
+F 2 "" V 3600 3810 50  0001 C CNN
+F 3 "~" V 3600 3810 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DA2FE65
+P 4175 3625
+F 0 "C?" H 4290 3671 50  0000 L CNN
+F 1 "C" H 4290 3580 50  0000 L CNN
+F 2 "" H 4213 3475 50  0001 C CNN
+F 3 "~" H 4175 3625 50  0001 C CNN
+	1    4175 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5DA30297
+P 4175 4100
+F 0 "C?" H 4290 4146 50  0000 L CNN
+F 1 "C" H 4290 4055 50  0000 L CNN
+F 2 "" H 4213 3950 50  0001 C CNN
+F 3 "~" H 4175 4100 50  0001 C CNN
+	1    4175 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5DA309D4
+P 4175 4675
+F 0 "C?" H 4293 4721 50  0000 L CNN
+F 1 "CP" H 4293 4630 50  0000 L CNN
+F 2 "" H 4213 4525 50  0001 C CNN
+F 3 "~" H 4175 4675 50  0001 C CNN
+	1    4175 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5DA313E3
+P 3525 4625
+F 0 "D?" H 3518 4841 50  0000 C CNN
+F 1 "LED" H 3518 4750 50  0000 C CNN
+F 2 "" H 3525 4625 50  0001 C CNN
+F 3 "~" H 3525 4625 50  0001 C CNN
+	1    3525 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA31FF8
+P 5150 3625
+F 0 "R?" H 5220 3671 50  0000 L CNN
+F 1 "R" H 5220 3580 50  0000 L CNN
+F 2 "" V 5080 3625 50  0001 C CNN
+F 3 "~" H 5150 3625 50  0001 C CNN
+	1    5150 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA326D9
+P 5150 4225
+F 0 "R?" H 5220 4271 50  0000 L CNN
+F 1 "R" H 5220 4180 50  0000 L CNN
+F 2 "" V 5080 4225 50  0001 C CNN
+F 3 "~" H 5150 4225 50  0001 C CNN
+	1    5150 4225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Memory_EEPROM:24LC1025 U?
+U 1 1 5DA32AA2
+P 6875 3975
+F 0 "U?" H 6875 4456 50  0000 C CNN
+F 1 "24LC1025" H 6875 4365 50  0000 C CNN
+F 2 "" H 6875 3975 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21941B.pdf" H 6875 3975 50  0001 C CNN
+	1    6875 3975
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
