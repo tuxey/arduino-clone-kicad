@@ -128,4 +128,15 @@ F 12 "Active" H 9700 4400 60  0001 L CNN "Status"
 	1    9500 3200
 	1    0    0    -1  
 $EndComp
+$Comp
+L Pablo_KiCad:DS1337_v1 U?
+U 1 1 5DA3A1C8
+P 4325 5075
+F 0 "U?" H 4325 5706 50  0000 C CNN
+F 1 "DS1337_v1" H 4325 5615 50  0000 C CNN
+F 2 "" H 4325 5075 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1337-DS1337C.pdf" H 4325 5075 50  0001 C CNN
+	1    4325 5075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
