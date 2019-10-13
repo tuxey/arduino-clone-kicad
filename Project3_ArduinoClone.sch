@@ -108,4 +108,35 @@ U 5DA33D85
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L dk_Embedded-Microcontrollers:ATMEGA328P-AU U?
+U 1 1 5DA3240F
+P 9500 3200
+F 0 "U?" H 9828 3303 60  0000 L CNN
+F 1 "ATMEGA328P-AU" H 9828 3197 60  0000 L CNN
+F 2 "digikey-footprints:TQFP-32_7x7mm" H 9700 3400 60  0001 L CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 9700 3500 60  0001 L CNN
+F 4 "ATMEGA328P-AU-ND" H 9700 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "ATMEGA328P-AU" H 9700 3700 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 9700 3800 60  0001 L CNN "Category"
+F 7 "Embedded - Microcontrollers" H 9700 3900 60  0001 L CNN "Family"
+F 8 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en608326" H 9700 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/microchip-technology/ATMEGA328P-AU/ATMEGA328P-AU-ND/1832260" H 9700 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC MCU 8BIT 32KB FLASH 32TQFP" H 9700 4200 60  0001 L CNN "Description"
+F 11 "Microchip Technology" H 9700 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 9700 4400 60  0001 L CNN "Status"
+	1    9500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Pablo_KiCad:DS1337_v1 U?
+U 1 1 5DA3A1C8
+P 4325 5075
+F 0 "U?" H 4325 5706 50  0000 C CNN
+F 1 "DS1337_v1" H 4325 5615 50  0000 C CNN
+F 2 "" H 4325 5075 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1337-DS1337C.pdf" H 4325 5075 50  0001 C CNN
+	1    4325 5075
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
