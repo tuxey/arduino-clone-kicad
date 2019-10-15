@@ -39,12 +39,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J3
 U 1 1 5DA37BBF
-P 6550 4475
-F 0 "J3" H 6600 4792 50  0000 C CNN
-F 1 "ICSP" H 6600 4701 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 6550 4475 50  0001 C CNN
-F 3 "~" H 6550 4475 50  0001 C CNN
-	1    6550 4475
+P 6400 4475
+F 0 "J3" H 6450 4792 50  0000 C CNN
+F 1 "ICSP" H 6450 4701 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical" H 6400 4475 50  0001 C CNN
+F 3 "~" H 6400 4475 50  0001 C CNN
+	1    6400 4475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -58,17 +58,17 @@ F 3 "~" H 4500 2925 50  0001 C CNN
 	1    4500 2925
 	1    0    0    -1  
 $EndComp
-Text HLabel 6350 4375 0    50   Output ~ 0
+Text HLabel 6200 4375 0    50   Output ~ 0
 MISO
-Text HLabel 6350 4475 0    50   BiDi ~ 0
+Text HLabel 6200 4475 0    50   BiDi ~ 0
 SCK
-Text HLabel 6850 4375 2    50   Input ~ 0
+Text HLabel 6700 4375 2    50   Input ~ 0
 VCC
-Text HLabel 6350 4575 0    50   Output ~ 0
+Text HLabel 6200 4575 0    50   Output ~ 0
 RESET
-Text HLabel 6850 4475 2    50   Input ~ 0
+Text HLabel 6700 4475 2    50   Input ~ 0
 MOSI
-Text HLabel 6850 4575 2    50   Input ~ 0
+Text HLabel 6700 4575 2    50   Input ~ 0
 GND
 Text HLabel 4300 2825 0    50   Input ~ 0
 GND
@@ -104,4 +104,12 @@ Text HLabel 4325 4650 0    50   Input ~ 0
 GND
 Text HLabel 4325 4750 0    50   Input ~ 0
 VCC
+Text Notes 4000 2600 0    50   ~ 0
+N6 - Serial pins
+Text Notes 6050 2550 0    50   ~ 0
+N6 - I2C pins
+Text Notes 4000 3750 0    50   ~ 0
+N8 - Digital pins
+Text Notes 6050 4000 0    50   ~ 0
+N9 - ICSP header
 $EndSCHEMATC

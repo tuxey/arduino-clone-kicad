@@ -9,6 +9,6 @@
 9 DONE Two resistors
 10 DONE I2C Serial EEPROM 24LC1025, 1024 kB, DIP-8/SOIC-8/TSSOP-8/DFN-8
 11 DONE IC MCU 8BIT 32KB FLASH 32TQFP Atmega328p-AU
-12 Clock/timer IC
-13 2x Two Pin Crystals
+12 DONE Clock/timer IC
+13 DONE 2x Two Pin Crystals
 14

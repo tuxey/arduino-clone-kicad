@@ -13,5 +13,15 @@ git commit
 
 git commit -am "mensaje del commit"
 
-git push
+# previamente a realizar un commit en un ordenador nuevo:
+
+git config --global user.name "nombre"
+git config --global user.email "email@example.com"
+
+# Para subir a GitHub:
+
+#git push origin [rama remota]
+
+git push origin master
+
 
