@@ -235,11 +235,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Pablo_KiCad_DS1337_v1
+# Pablo_Kicad_library_DS1337_v1
 #
-DEF Pablo_KiCad_DS1337_v1 U 0 40 Y Y 1 F N
+DEF Pablo_Kicad_library_DS1337_v1 U 0 40 Y Y 1 F N
 F0 "U" 0 750 50 H V C CNN
-F1 "Pablo_KiCad_DS1337_v1" 0 650 50 H V C CNN
+F1 "Pablo_Kicad_library_DS1337_v1" 0 650 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
