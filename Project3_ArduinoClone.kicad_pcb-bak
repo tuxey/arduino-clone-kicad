@@ -13,7 +13,6 @@
   (title_block
     (title "Arduino Clone")
     (date 2019-10-16)
-    (rev v1)
     (company "Designed by Pablo Roig")
     (comment 1 "Battery Powered")
     (comment 2 "Extended EEPROM (2 MB)")
