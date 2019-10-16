@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Project3_ArduinoClone-rescue)(type Legacy)(uri ${KIPRJMOD}/Project3_ArduinoClone-rescue.lib)(options "")(descr ""))
 )

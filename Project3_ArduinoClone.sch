@@ -123,7 +123,7 @@ F 12 "Active" H 7350 4225 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Pablo_Kicad_library:DS1337_v1 U3
+L Pablo_KiCad:DS1337_v1 U3
 U 1 1 5DA3A1C8
 P 2625 1850
 F 0 "U3" H 2625 2481 50  0000 C CNN
