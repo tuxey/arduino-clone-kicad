@@ -1,0 +1,18 @@
+### Module positions - created on 17/10/2019 13:46:46 ###
+### Printed by Pcbnew version kicad (5.1.4)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                                                              PosX       PosY       Rot  Side
+C1        22pF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder                       93.5900  -129.5400    0.0000  top
+C2        22pF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder                       93.4630  -126.2380    0.0000  top
+C3        10uF           C_0805_2012Metric_Pad1.15x1.40mm_HandSolder                      108.8300  -135.1600    0.0000  top
+D1        LED            LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder                    113.7830  -139.1920    0.0000  top
+R1        330Ohm         R_0805_2012Metric_Pad1.15x1.40mm_HandSolder                      108.8300  -139.1920    0.0000  top
+R2        10kOhm         R_0805_2012Metric_Pad1.15x1.40mm_HandSolder                       84.7000  -123.9520    0.0000  top
+U1        24LC1025       SOIJ-8_5.3x5.3mm_P1.27mm                                         101.3460  -128.5240    0.0000  top
+U2        24LC1025       SOIJ-8_5.3x5.3mm_P1.27mm                                         101.3460  -137.1600    0.0000  top
+U3        DS1337         SO-8_5.3x6.2mm_P1.27mm                                           112.1410  -128.2700    0.0000  top
+U4        ATMEGA328P-AU  TQFP-32_7x7mm                                                     90.5510  -137.2870    0.0000  top
+Y1        Crystal_32MHz  Crystal_SMD_MicroCrystal_CC7V-T1A-2Pin_3.2x1.5mm_HandSoldering   114.1990  -135.2550    0.0000  top
+Y2        Crystal_16MHz  Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering                     86.6810  -127.7620    0.0000  top
+## End
